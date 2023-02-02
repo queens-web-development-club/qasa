@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import { Inter } from '@next/font/google'
+import LatestPost from '@/components/LatestPost'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -14,6 +15,7 @@ export default function Home() {
       </Head>
       <main className="bg-white">
         <div className="h-screen mx-48">
+          <LatestPost />
         </div>
       </main>
     </>
