@@ -14,7 +14,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className="bg-white">
-        <div className="h-screen mx-48">
+        <div className="h-screen mx-12 lg:mx-36 xl:mx-60">
           <LatestPost />
         </div>
       </main>
