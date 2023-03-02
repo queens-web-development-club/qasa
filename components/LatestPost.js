@@ -1,7 +1,6 @@
 import Image from 'next/image';
 import TempImage from "../assets/tmp/recent-img-tmp.png";
 
-const LatestPostStyling=""
 export default function LatestPost() {
     return (
         /* Component Container */
