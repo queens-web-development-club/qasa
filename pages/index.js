@@ -1,4 +1,5 @@
-import Head from 'next/head';
+import Head from 'next/head'
+import LatestPost from '@/components/LatestPost'
 import Image from 'next/image';
 import QASAFullLogo from '../assets/images/qasa_full_logo.png'
 
@@ -29,11 +30,9 @@ export default function Home() {
           {
             /**
              * ----Events Carousel----
-             * 
-             * 
-             * ----Latest Post Widget----
              */
           }
+          <LatestPost />
           {/** About Header Container */}
           <div
           className="py-2 text-center underline underline-offset-4 text-[25px] md:text-[35px] xl:text-[45px]"
