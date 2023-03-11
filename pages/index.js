@@ -1,8 +1,7 @@
 import Head from 'next/head'
-import { Inter } from '@next/font/google'
 import LatestPost from '@/components/LatestPost'
-
-const inter = Inter({ subsets: ['latin'] })
+import Image from 'next/image';
+import QASAFullLogo from '../assets/images/qasa_full_logo.png'
 
 export default function Home() {
   return (
@@ -15,7 +14,55 @@ export default function Home() {
       </Head>
       <main className="bg-white">
         <div className="h-screen mx-12 lg:mx-36 xl:mx-60">
+          {/** Header Container */}
+          <div 
+          className="text-center text-[60px] text-red-light 
+                    lg:text-[75px]"
+          > 
+            QASA
+          </div>
+          {/** Subheading Container */}
+          <div
+          className="text-center text-[20px] md:text-[30px] xl:text-[40px]"
+          >
+            Queen's Asian Students' Association
+          </div>
+          {
+            /**
+             * ----Events Carousel----
+             */
+          }
           <LatestPost />
+          {/** About Header Container */}
+          <div
+          className="py-2 text-center underline underline-offset-4 text-[25px] md:text-[35px] xl:text-[45px]"
+          >
+            About QASA
+          </div>
+          {/** About Section Container */}
+          <div
+          className="flex flex-wrap lg:flex-nowrap"
+          >
+            {/** About Description */}
+            <div
+            className="text-[15px] md:text-[25px] xl:text-[35px] 
+                       lg:w-[50%] lg:py-10"
+            >
+              Queen's Asian Students Association (QASA) is a cultural
+              club that hosts events throughout the year to foster
+              friendship, strengthen the ties between the school and the 
+              community, and educate, inform, and promote Asian culture
+            </div>
+            <div
+            className="flex grow justify-center lg:w-[50%]"
+            > {/** Logo Container */}
+              <Image 
+              src={QASAFullLogo}
+              alt=""
+             
+              />
+            </div>
+          </div>
         </div>
       </main>
     </>
