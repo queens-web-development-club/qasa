@@ -13,8 +13,8 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className="bg-white">
-        <div className="h-screen mx-12 lg:mx-36 xl:mx-60">
+      <main>
+        <div className="mx-12 lg:mx-36 xl:mx-60">
           {/** Header Container */}
           <div 
           className="text-center text-[60px] text-red-light 
@@ -24,7 +24,7 @@ export default function Home() {
           </div>
           {/** Subheading Container */}
           <div
-          className="text-center text-[20px] md:text-[30px] xl:text-[40px]"
+          className="text-center text-black text-[20px] md:text-[30px] xl:text-[40px]"
           >
             Queen's Asian Students' Association
           </div>
@@ -34,7 +34,7 @@ export default function Home() {
           
           {/** About Header Container */}
           <div
-          className="py-2 text-center underline underline-offset-4 text-[25px] md:text-[35px] xl:text-[45px]"
+          className="py-2 text-black text-center underline underline-offset-4 text-[25px] md:text-[35px] xl:text-[45px]"
           >
             About QASA
           </div>
@@ -44,7 +44,7 @@ export default function Home() {
           >
             {/** About Description */}
             <div
-            className="text-[15px] md:text-[25px] xl:text-[35px] 
+            className="text-[15px] text-black md:text-[25px] xl:text-[35px] 
                        lg:w-[50%] lg:py-10"
             >
               Queen's Asian Students Association (QASA) is a cultural
