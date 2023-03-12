@@ -1,7 +1,8 @@
 import Head from 'next/head'
-import LatestPost from '@/components/LatestPost'
 import Image from 'next/image';
-import QASAFullLogo from '../assets/images/qasa_full_logo.png'
+import LatestPost from '@/components/LatestPost'
+import ImageCarousel from '@/components/ImageCarousel';
+import QASAFullLogo from '@/assets/images/qasa_full_logo.png'
 
 export default function Home() {
   return (
@@ -32,6 +33,7 @@ export default function Home() {
              * ----Events Carousel----
              */
           }
+          <ImageCarousel />
           <LatestPost />
           {/** About Header Container */}
           <div
