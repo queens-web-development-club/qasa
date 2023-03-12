@@ -28,13 +28,10 @@ export default function Home() {
           >
             Queen's Asian Students' Association
           </div>
-          {
-            /**
-             * ----Events Carousel----
-             */
-          }
+        
           <ImageCarousel />
           <LatestPost />
+          
           {/** About Header Container */}
           <div
           className="py-2 text-center underline underline-offset-4 text-[25px] md:text-[35px] xl:text-[45px]"
