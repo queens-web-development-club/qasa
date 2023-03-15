@@ -90,6 +90,10 @@ a {
   text-decoration: none;
 }
 
+main {
+  padding-top: 80px;
+}
+
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
@@ -99,3 +103,9 @@ a {
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .nav-item {
+    @apply p-2 text-4xl
+  }
+}
