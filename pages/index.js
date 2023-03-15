@@ -1,7 +1,8 @@
 import Head from 'next/head'
-import LatestPost from '@/components/LatestPost'
 import Image from 'next/image';
-import QASAFullLogo from '../assets/images/qasa_full_logo.png'
+import LatestPost from '@/components/LatestPost'
+import ImageCarousel from '@/components/ImageCarousel';
+import QASAFullLogo from '@/assets/images/qasa_full_logo.png'
 
 export default function Home() {
   return (
@@ -27,12 +28,10 @@ export default function Home() {
           >
             Queen's Asian Students' Association
           </div>
-          {
-            /**
-             * ----Events Carousel----
-             */
-          }
+        
+          <ImageCarousel />
           <LatestPost />
+          
           {/** About Header Container */}
           <div
           className="py-2 text-black text-center underline underline-offset-4 text-[25px] md:text-[35px] xl:text-[45px]"
