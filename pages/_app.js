@@ -6,18 +6,21 @@ import { Particles } from 'react-tsparticles';
 import { loadFull } from 'tsparticles';
 
 const tsParticlesOptions = {
-  fullscreen: { enable: false, zIndex: -1 },
+  fullscreen: { enable: true, zIndex: -1 },
   particles: {
     move: {
       enable: true,
-      speed: 10,
+      speed: 8,
       direction: "none",
       straight: "false",
-      random: true
+      random: true,
+      outModes: {
+        default: "bounce"
+      }
 
     },
     number: {
-      value: 3
+      value: 4
     },
     shape: {
       type: "circle"
@@ -26,7 +29,7 @@ const tsParticlesOptions = {
       value: 0.9
     },
     size: {
-      value: { min: 150, max: 400 }
+      value: { min: 200, max: 400 }
     },
     color: {
       value: "#FDF5EA"
@@ -44,7 +47,7 @@ export default function App({ Component, pageProps }) {
 
   return (
     <div>
-      <Particles options={tsParticlesOptions} init={blobsInit} className="fixed z-[-1]"/>
+      <Particles options={tsParticlesOptions} init={blobsInit} className="sticky z-[-1]"/>
       <NavBar />
       <Component {...pageProps} />
       <Footer />
