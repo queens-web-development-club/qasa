@@ -20,7 +20,7 @@ export default function LatestPost() {
             className="grow relative flex flex-wrap  bg-blue-light p-5 lg:max-w-[50%]"
             >
                 <div>
-                    <div className="text-[25px] text-black text-center grow max-h-[20%]
+                    <div className="text-[25px] text-black text-center grow max-h-[20%] font-DMSans
                     md:text-[35px]
                     lg:text-left lg:text-[45px]
                     xl:text-[60px]"
@@ -28,7 +28,7 @@ export default function LatestPost() {
                         Latest Post
                     </div>
                     <div
-                    className="py-5 text-black"
+                    className="py-5 text-black font-DMSans"
                     >
                         There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour
                     </div>
@@ -36,7 +36,7 @@ export default function LatestPost() {
                 
                 <div className="grow self-end">
                     <button
-                    className="bg-blue-dark rounded-[20px] w-full text-[20px] text-white
+                    className="bg-blue-dark rounded-[20px] w-full text-[20px] text-white font-DMSans
                     md:text-[25px]
                     lg:text-[30px]
                     xl:text-[40px]

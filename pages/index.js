@@ -17,14 +17,14 @@ export default function Home() {
         <div className="mx-12 lg:mx-36 xl:mx-60">
           {/** Header Container */}
           <div 
-          className="text-center text-[60px] text-red-light 
+          className="text-center text-[60px] text-red-light font-LeagueSpartan
                     lg:text-[75px]"
           > 
             QASA
           </div>
           {/** Subheading Container */}
           <div
-          className="text-center text-black text-[20px] md:text-[30px] xl:text-[40px]"
+          className="text-center text-black text-[20px] md:text-[30px] xl:text-[40px] font-DMSans"
           >
             Queen's Asian Students' Association
           </div>
@@ -34,7 +34,7 @@ export default function Home() {
           
           {/** About Header Container */}
           <div
-          className="py-2 text-black text-center underline underline-offset-4 text-[25px] md:text-[35px] xl:text-[45px]"
+          className="py-2 text-black text-center underline underline-offset-4 text-[25px] md:text-[35px] xl:text-[45px] font-DMSans"
           >
             About QASA
           </div>
@@ -45,7 +45,7 @@ export default function Home() {
             {/** About Description */}
             <div
             className="text-[15px] text-black md:text-[25px] xl:text-[35px] 
-                       lg:w-[50%] lg:py-10"
+                       lg:w-[50%] lg:py-10 font-DMSans"
             >
               Queen's Asian Students Association (QASA) is a cultural
               club that hosts events throughout the year to foster
