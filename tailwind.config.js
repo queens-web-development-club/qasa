@@ -12,6 +12,20 @@ module.exports = {
         'md': '768px',
         'lg': '1024px',
         'xl': '1440px',
+      },
+      animation: {
+        fadeIn: "fadeIn 2s ease-in-out forwards",
+        fadeOut: "fadeOut 2s ease-out backwards"
+      },
+      keyframes: {
+        fadeIn: {
+          "0%": { opacity: 0 },
+          "100%": { opacity: 1 }
+        },
+        fadeOut: {
+          "0%": { opacity: 1 },
+          "100%": { opacity: 0 }
+        }
       }
     },
     colors: {
