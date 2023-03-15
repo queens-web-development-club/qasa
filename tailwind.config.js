@@ -26,6 +26,10 @@ module.exports = {
           "0%": { opacity: 1 },
           "100%": { opacity: 0 }
         }
+      },
+      fontFamily: {
+        LeagueSpartan: ['League Spartan', 'sans-serif'],
+        DMSans: ['DM Sans', 'sans']
       }
     },
     colors: {
