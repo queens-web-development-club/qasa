@@ -3,6 +3,8 @@ import Image from 'next/image';
 import LatestPost from '@/components/LatestPost'
 import ImageCarousel from '@/components/ImageCarousel';
 import QASAFullLogo from '@/assets/images/qasa_full_logo.png'
+import exImage from "@/assets/images/image-carousel/carousel-img-1.png"
+const carouselImages = [exImage, exImage, exImage, exImage, exImage, exImage]
 
 export default function Home() {
   return (
@@ -29,7 +31,7 @@ export default function Home() {
             Queen's Asian Students' Association
           </div>
         
-          <ImageCarousel />
+          <ImageCarousel images={carouselImages}/>
           <LatestPost />
           
           {/** About Header Container */}
