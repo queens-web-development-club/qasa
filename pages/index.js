@@ -16,7 +16,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <div className="mx-12 lg:mx-36 xl:mx-60">
+        <div className="main-margins">
           {/** Header Container */}
           <div 
           className="text-center text-[60px] text-red-light font-LeagueSpartan

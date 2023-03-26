@@ -108,4 +108,7 @@ main {
   .nav-item {
     @apply p-2 text-4xl
   }
+  .main-margins {
+    @apply mx-12 lg:mx-36 xl:mx-60
+  }
 }

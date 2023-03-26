@@ -50,7 +50,7 @@ export default function NavBar() {
                             </div> 
                         </Link>
                         
-                        <Link href="/">
+                        <Link href="/contact">
                             <div className="nav-item">
                                 Contact
                             </div>
