@@ -52,26 +52,26 @@ export default function ExecsPage() {
                         Meet the Team
                     </div>
                     <div className="flex flex-wrap">
-                        <div className="w-full lg:w-1/2 lg:px-2 cursor-pointer">
+                        <Link href="/contact/senior-leadership" className="w-full lg:w-1/2 lg:px-2 cursor-pointer">
                             <ImageCarousel images={carouselImages} />
                             <div className="flex justify-center text-xl"> Senior Leadership </div>
-                        </div>
-                        <div className="w-full lg:w-1/2 lg:px-2 cursor-pointer">
+                        </Link>
+                        <Link href="/contact/marketing" className="w-full lg:w-1/2 lg:px-2 cursor-pointer">
                             <ImageCarousel images={carouselImages} />
                             <div className="flex justify-center text-xl"> Marketing </div>
-                        </div>
-                        <div className="w-full lg:w-1/2 lg:px-2 cursor-pointer">
+                        </Link>
+                        <Link href="/contact/outreach" className="w-full lg:w-1/2 lg:px-2 cursor-pointer">
                             <ImageCarousel images={carouselImages} />
                             <div className="flex justify-center text-xl"> Outreach </div>
-                        </div>
-                        <div className="w-full lg:w-1/2 lg:px-2 cursor-pointer">
+                        </Link>
+                        <Link href="/contact/sponsorships" className="w-full lg:w-1/2 lg:px-2 cursor-pointer">
                             <ImageCarousel images={carouselImages} />
                             <div className="flex justify-center text-xl"> Sponsorships </div>
-                        </div>
-                        <div className="w-full lg:w-1/2 lg:px-2 cursor-pointer">
+                        </Link>
+                        <Link href="/contact/logistics" className="w-full lg:w-1/2 lg:px-2 cursor-pointer">
                             <ImageCarousel images={carouselImages} />
                             <div className="flex justify-center text-xl"> Logistics </div>
-                        </div>
+                        </Link>
                     </div>
                 </div>
             </main>
