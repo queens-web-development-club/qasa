@@ -17,7 +17,7 @@ export default function ExecsPage() {
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <link rel="icon" href="/favicon.ico" />
             </Head>
-            <main className="bg-contactBlobs bg-cover bg-no-repeat bg-right bg-origin-border">
+            <main className="bg-contactBlobs bg-cover bg-no-repeat-y bg-right bg-origin-border">
                 <div className="main-margins">
                     <div className="flex justify-center underline text-2xl md:text-4xl xl:text-5xl pt-10 pb-6">
                         Contact Us

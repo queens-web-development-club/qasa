@@ -15,7 +15,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className="bg-homeBlobs bg-contain bg-no-repeat bg-right bg-origin-border">
+      <main className="bg-homeBlobs bg-contain bg-repeat-y bg-right bg-origin-border">
         <div className="main-margins">
           {/** Header Container */}
           <div 
