@@ -2,7 +2,6 @@ import Head from 'next/head'
 import Image from 'next/image';
 import { useRouter } from 'next/router';
 import { TeamInformation } from '@/assets/data/team_information';
-import Banner from "@/assets/images/banner.png"
 
 export default function TeamPage() {
     const router = useRouter()

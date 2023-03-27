@@ -30,7 +30,11 @@ module.exports = {
       fontFamily: {
         LeagueSpartan: ['League Spartan', 'sans-serif'],
         DMSans: ['DM Sans', 'sans']
-      }
+      },
+      backgroundImage: {
+        'homeBlobs': "url('/blobs/home-blobs.png')",
+        'contactBlobs': "url('/blobs/contact-blobs.png')",
+      },
     },
     colors: {
       'white': '#FFFFFF',
