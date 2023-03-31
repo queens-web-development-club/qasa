@@ -36,7 +36,7 @@ function TeamPageTemplate({ team }) {
         <div className="flex flex-row flex-wrap justify-center text-center py-8">
             {team_data.members.map((member, idx) => {
                 return (
-                    <div className="w-full md:w-1/2 xl:w-1/3 flex flex-col items-center justify-center gap-2 py-4 px-2">
+                    <div key={idx} className="w-full md:w-1/2 xl:w-1/3 flex flex-col items-center justify-center gap-2 py-4 px-2">
                         <Image src={member.headshot}></Image>
                         <div className="text-2xl">
                             {member.name}
