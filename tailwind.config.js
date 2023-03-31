@@ -34,6 +34,7 @@ module.exports = {
       backgroundImage: {
         'homeBlobs': "url('/blobs/home-blobs.png')",
         'contactBlobs': "url('/blobs/contact-blobs.png')",
+        'aboutBlobs': "url('/blobs/about-blobs.png')"
       },
     },
     colors: {
