@@ -32,7 +32,7 @@ export default function AboutPage() {
                         className="text-[20px] text-black md:text-[30px] xl:text-[40px] 
                                 lg:w-[50%] lg:py-10 font-DMSans"
                         >
-                        Queen's Asian Students Association (QASA) is a cultural
+                        Queen&apos;s Asian Students Association (QASA) is a cultural
                         club that hosts events throughout the year to foster
                         friendship, strengthen the ties between the school and the 
                         community, and educate, inform, and promote Asian culture
