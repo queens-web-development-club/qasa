@@ -41,7 +41,7 @@ export default function ImageCarousel({ images }) {
             >
                 {images.map((_, index) => {
                     return (
-                        <div 
+                        <div key={index}
                         className={`h-2 w-2 xl:h-4 xl:w-4 rounded-full mx-1 mb-1 cursor-pointer ${index === imageOffset ? "bg-red-light outline outline-2 outline-beige" : "bg-beige"}`}
                         onClick={() => {setImageOffset(index); clearTimeout(rotationTimer)}}
                         />
