@@ -15,7 +15,7 @@ export default function TeamPage() {
             <link rel="icon" href="/favicon.ico" />
         </Head>
         <main>
-            <TeamPageTemplate team={team_name}/>
+            <TeamPageTemplate team={team_name || 'senior-leadership'}/>
         </main>
         </>
     )
