@@ -1,10 +1,7 @@
 import { useState } from "react"
 import Image from "next/image"
-import exImage from "@/assets/images/image-carousel/carousel-img-1.png"
 
-const images = [exImage, exImage, exImage, exImage, exImage, exImage]
-
-export default function ImageCarousel() {
+export default function ImageCarousel({ images }) {
     const [imageOffset, setImageOffset] = useState(0)
 
     const rotationTimer = setTimeout(() => {
@@ -13,7 +10,7 @@ export default function ImageCarousel() {
 
     return (
         <div
-        className="relative flex justify-center w-full py-[20px] lg:px-[30px]">
+        className="relative flex justify-center py-[20px]">
 
             {/* Container for currently shown image */}
             <div

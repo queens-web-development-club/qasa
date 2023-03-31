@@ -2,7 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { useState, useEffect, useCallback } from 'react';
 
-import NavLogo from "@/assets/images/qasa_nav_logo.png";
+import NavLogo from "@/assets/images/logos/qasa_nav_logo.png";
 
 export default function NavBar() {
     // Enable when implementing mobile support
@@ -50,7 +50,7 @@ export default function NavBar() {
                             </div> 
                         </Link>
                         
-                        <Link href="/">
+                        <Link href="/contact">
                             <div className="nav-item">
                                 Contact
                             </div>

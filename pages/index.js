@@ -2,7 +2,9 @@ import Head from 'next/head'
 import Image from 'next/image';
 import LatestPost from '@/components/LatestPost'
 import ImageCarousel from '@/components/ImageCarousel';
-import QASAFullLogo from '@/assets/images/qasa_full_logo.png'
+import QASAFullLogo from '@/assets/images/logos/qasa_full_logo.png'
+import exImage from "@/assets/images/image-carousel/carousel-img-1.png"
+const carouselImages = [exImage, exImage, exImage, exImage, exImage, exImage]
 
 export default function Home() {
   return (
@@ -13,8 +15,8 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main>
-        <div className="mx-12 lg:mx-36 xl:mx-60">
+      <main className="bg-homeBlobs bg-contain bg-repeat-y bg-right bg-origin-border">
+        <div className="main-margins">
           {/** Header Container */}
           <div 
           className="text-center text-[60px] text-red-light font-LeagueSpartan
@@ -29,9 +31,8 @@ export default function Home() {
             Queen's Asian Students' Association
           </div>
         
-          <ImageCarousel />
+          <ImageCarousel images={carouselImages}/>
           <LatestPost />
-          
           {/** About Header Container */}
           <div
           className="py-2 text-black text-center underline underline-offset-4 text-[25px] md:text-[35px] xl:text-[45px] font-DMSans"
