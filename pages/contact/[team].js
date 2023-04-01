@@ -25,7 +25,7 @@ function TeamPageTemplate({ team }) {
     const team_data = TeamInformation[team]
     return (
         <>
-        <div className="bg-beige pb-6 px-6 md:px-20 xl:px-44">
+        <div className="relative bg-teamPageBanner bg-cover -translate-y-2 pb-6 px-6 md:px-20 md:pb-12 xl:px-44 xl:pb-24">
             <div className="flex justify-center underline text-4xl text-center lg:text-6xl xl:text-5xl pt-10 pb-6">
                 {team_data.name}
             </div>

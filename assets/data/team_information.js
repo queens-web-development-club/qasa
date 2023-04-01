@@ -1,4 +1,8 @@
-import Headshot from "@/assets/tmp/andrew-headshot.png"
+import AndrewHeadshot from "@/assets/images/headshots/andrew-headshot.png"
+import IsabelHeadshot from "@/assets/images/headshots/isabel-headshot.png";
+import EuniceHeadshot from "@/assets/images/headshots/eunice-headshot.png";
+import janeHeadshot from "@/assets/images/headshots/jane-headshot.png";
+import sophieHeadshot from "@/assets/images/headshots/sophie-headshot.png";
 
 export const TeamInformation = {
     "senior-leadership":{
@@ -8,23 +12,23 @@ export const TeamInformation = {
             {
                 name: "Andrew Mun-Shimoda",
                 position: "Co-Chair",
-                headshot: Headshot,
+                headshot: AndrewHeadshot,
             },{
                 name: "Isabel Wu",
                 position: "Co-Chair",
-                headshot: Headshot,
+                headshot: IsabelHeadshot,
             },{
                 name: "Eunice Pang",
                 position: "Senior Advisor",
-                headshot: Headshot,
+                headshot: EuniceHeadshot,
             },{
                 name: "Jane Jia",
                 position: "Frosh Rep.",
-                headshot: Headshot,
+                headshot: janeHeadshot,
             },{
                 name: "Sophie Shi",
                 position: "Frosh Rep",
-                headshot: Headshot,
+                headshot: sophieHeadshot,
             },
         ]
     },

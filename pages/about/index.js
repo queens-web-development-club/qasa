@@ -3,7 +3,7 @@ import Image from 'next/image';
 import QASAFullLogo from '@/assets/images/logos/qasa_full_logo.png';
 import ImageCarousel from '@/components/ImageCarousel';
 import Link from 'next/link';
-import exImage from "@/assets/tmp/andrew-headshot.png"
+import exImage from "@/assets/images/headshots/andrew-headshot.png"
 const carouselImages = [exImage, exImage, exImage, exImage, exImage, exImage]
 
 export default function AboutPage() {
