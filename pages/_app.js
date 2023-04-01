@@ -4,7 +4,7 @@ import NavBar from '@/components/NavBar'
 
 export default function App({ Component, pageProps }) {
   return (
-    <div>
+    <div className="bg-white">
       <NavBar />
       <Component {...pageProps} />
       <Footer />
