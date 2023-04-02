@@ -27,9 +27,9 @@ export default function PostsCarousel() {
             <button  onClick={() => setImageOffset(imageOffset - 1)} className="absolute left-28 bottom-[40%] z-2 hover:scale-125 duration-200 cursor-pointer">
                 <AiOutlineArrowLeft  className="h-[40px] w-[40px]"/>
             </button>
-            <div className="absolute right-28 bottom-[40%] hover:scale-125 duration-200 cursor-pointer">
-                <AiOutlineArrowRight onClick={() => setImageOffset(imageOffset + 1)} className="h-[40px] w-[40px]"/>
-            </div>
+            <button onClick={() => setImageOffset(imageOffset + 1)} className="absolute right-28 bottom-[40%] hover:scale-125 duration-200 cursor-pointer">
+                <AiOutlineArrowRight className="h-[40px] w-[40px]"/>
+            </button>
             <div className="bg-beige flex h-fit md:mx-40 py-20 md:px-8 rounded-xl overflow-hidden">
                 <div 
                 style={{ transform: `translateX(-${33*imageOffset}%)`, transition: "all 1s ease" }}

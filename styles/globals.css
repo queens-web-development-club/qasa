@@ -106,7 +106,7 @@ main {
 
 @layer components {
   .nav-item {
-    @apply p-2 text-4xl
+    @apply p-2 text-[8px] sm:text-lg md:text-2xl lg:text-4xl text-black
   }
   .main-margins {
     @apply mx-12 lg:mx-36 xl:mx-60

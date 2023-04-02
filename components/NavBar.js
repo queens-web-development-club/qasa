@@ -23,7 +23,7 @@ export default function NavBar() {
         <header className="fixed top-0 left-0 w-full z-30 bg-beige">
             <nav>
                 <div className="flex flex-row justify-center gap-[50px] px-10 py-2">
-                    <div className={`flex gap-12 align-center transition-all duration-500 ${logo ? "-translate-x-40" : ""}`}>
+                    <div className={`flex gap-12 align-center transition-all duration-500 ${logo ? "sm:-translate-x-12 md:-translate-x-24 lg:-translate-x-40" : ""}`}>
                         <Link href="/">
                             <div className="nav-item">
                                 Home
@@ -43,7 +43,7 @@ export default function NavBar() {
                         </div>
                     </Link>
                     }
-                    <div className={`flex gap-12 align-center transition-all duration-500 ${logo ? "translate-x-40" : ""}`}>
+                    <div className={`flex gap-12 align-center transition-all duration-500 ${logo ? "sm:translate-x-12 md:translate-x-24 lg:translate-x-40" : ""}`}>
                         <Link href="/events">
                             <div className="nav-item">
                                 Events
