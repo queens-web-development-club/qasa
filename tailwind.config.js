@@ -35,6 +35,7 @@ module.exports = {
         'homeBlobs': "url('/blobs/home-blobs.png')",
         'contactBlobs': "url('/blobs/contact-blobs.png')",
         'aboutBlobs': "url('/blobs/about-blobs.png')",
+        'eventsBlobs': "url('/blobs/events-blobs.svg')",
         'teamPageBanner': "url('/banners/banner-graphic.png')",
       },
     },
