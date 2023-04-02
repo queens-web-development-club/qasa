@@ -36,7 +36,7 @@ export default function PostsCarousel() {
                 className="flex flex-nowrap">
                     {tempTimeline.map((post, idx)=> {
                         return (
-                            <PostWidget image={post.image} date={post.date} />
+                            <PostWidget key={idx} image={post.image} date={post.date} />
                         )
                     })}
                 </div>
